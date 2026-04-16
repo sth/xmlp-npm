@@ -8,11 +8,11 @@ Install `dnt`
 
     deno add jsr:@deno/dnt
 
-Checkout the `xmlp` repository intp a `xmlp` subdirectory
+Checkout the `xmlp` repository into a `xmlp` subdirectory
 
     git checkout https://github.com/sth/xmlp.git
 
-Prepare the package to be release as a certain version number
+Prepare the package to be released as a certain version
 
     ./build.sh 0.5.2
 
