@@ -17,12 +17,12 @@ await build({
     // see JS docs for overview and more options
     deno: true,
   },
-  scriptModule: false,
   test: false,
   typeCheck: false,
   package: {
     // package.json properties
     "name": "@tejp/xmlp",
+    "type": "module",
     "version": Deno.args[0],
     "description": "Typescript XML parser (SAX and PullParser)",
     "repository": "https://github.com/sth/xmlp.git",
